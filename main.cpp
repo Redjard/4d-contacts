@@ -51,34 +51,6 @@ bool Player_keyInput_H(Player* self, GLFWwindow* window, World* world, int key, 
 
 DWORD WINAPI Main_Thread(void* hModule) {
 	
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
-	KeyBinds::IsLoaded();
 	if (KeyBinds::IsLoaded()) {
 		KeyBinds::addBind( "Toggle 4D Glasses", glfw::Keys::F3, KeyBindsScope::PLAYER, toggleGlasses );
 		KeyBinds::addBind( "Toggle Compass",    glfw::Keys::F3, KeyBindsScope::PLAYER, toggleCompass );
