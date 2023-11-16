@@ -51,13 +51,34 @@ bool Player_keyInput_H(Player* self, GLFWwindow* window, World* world, int key, 
 
 DWORD WINAPI Main_Thread(void* hModule) {
 	
-	// why do I have to do this Tr1Ngle?? Why?????
-	for (int i = 0; i < 500; i++) {
-		if (KeyBinds::IsLoaded())
-			break;
-		Sleep(10);
-	}
-	
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
+	KeyBinds::IsLoaded();
 	if (KeyBinds::IsLoaded()) {
 		KeyBinds::addBind( "Toggle 4D Glasses", glfw::Keys::F3, KeyBindsScope::PLAYER, toggleGlasses );
 		KeyBinds::addBind( "Toggle Compass",    glfw::Keys::F3, KeyBindsScope::PLAYER, toggleCompass );
