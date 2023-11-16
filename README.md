@@ -4,4 +4,4 @@ A mod for [4D Miner by Mashpoe](https://mashpoe.com/4d-miner), based on [Tr1Ngle
 
 This mods lets you see the glasses and compasses visual effects without holding them.
 
-You can toggle this using F3, Tr1Ngles KeyBinds mod is supported but not required for this.
+You can toggle this using F3, [Tr1Ngles KeyBinds mod](https://github.com/Tr1NgleDev/4DKeyBinds) is supported but not required for this.
