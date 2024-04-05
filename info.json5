@@ -1,0 +1,14 @@
+{
+  id: "redjard.contacts",
+  name: "4D Contacts",
+  author: "Redjard",
+  description: "Allows you to see coordinates and get entities projected into your view, as if you had inserted the 4D glasses as contact lenses and wore the compass as a hat.",
+  version: "1.1",
+  gameVersion: "0.2.1.4",
+  modDLL: "4D Contacts.dll",
+  externalDLLs: [],
+  dependencies: {
+    "tr1ngledev.4dkeybinds": "? before >= 1.1",
+    "redjard.console": "? before >= 1.0",
+  },
+}
